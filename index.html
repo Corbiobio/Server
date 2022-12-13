@@ -1,15 +1,54 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/svg+xml" href="/vite.svg">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- link css here only when ccs is not imported in js yet -->
-    <!-- <link rel="stylesheet" href="/css/style.css"> -->
-    <title>Hello</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    <!-- <script src="./js/app.js" type="module"></script> -->
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="description du site">
+  <title> titre du site </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div>
+      <input id="input" type="text" placeholder="Choose a pokemon">
+    </div>
+  </header>
+  <ul id="ul"></ul>
+
+
+
+  <main>
+    <div id="pokepage">
+      <p id="name">Rayquaza</p>
+
+      <div id="atribut">
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+
+        <div id="pkmimg">
+          <p>: normal</p>
+          <img id="normal" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/384.png">
+          <p>: shiny</p>
+          <img id="shiny" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/384.png">
+        </div>
+
+      </div>
+
+
+    </div>
+  </main>
+
+
+  <script src="app.js"></script>
+
+</body>
+
 </html>

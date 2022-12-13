@@ -1,0 +1,130 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body {
+    background-color: rgb(153, 30, 153);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    width: 400px;
+    height: 80px;
+    border: 0;
+    border-bottom: 3px solid rgb(99, 1, 99);
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 5%;
+}
+
+input::placeholder {
+    color: white;
+}
+
+input:focus {
+    border-bottom: 2px solid black;
+    outline: none;
+}
+
+header {
+    margin-top: 15px;
+    border: 4px solid rgb(99, 1, 99);
+    border-radius: 15px;
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    width: 500px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+#text {
+    background-color: rgb(99, 1, 99);
+}
+
+
+#ul {
+    background-color: blueviolet;
+    border: 4px solid rgb(99, 1, 99);
+    border-radius: 8px;
+    padding: 0;
+    width: 15%;
+}
+
+img {
+    height: 25%;
+    width: 25%;
+    margin-top: -15px;
+}
+
+ul p {
+    height: 40px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul p:hover {
+    background-color: rgb(99, 1, 99);
+    border-radius: 8px;
+}
+
+#pokepage {
+    background-color: blueviolet;
+    border-radius: 8px;
+    border: 4px solid rgb(99, 1, 99);
+    height: 500px;
+    width: 800px;
+    margin: 0;
+    display: none;
+}
+
+#name {
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+}
+
+#atribut {
+    width: 100%;
+    margin-left: 15px;
+
+}
+
+#atribut>p {
+    width: 400px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+
+
+#pkmimg {
+    flex-direction: column;
+    align-items: flex-end;
+    display: flex;
+    margin-right: 40px;
+    margin-top: -430px;
+}
+
+#pkmimg p {
+    position: relative;
+    margin: 0;
+    font-size: 20px;
+}
